@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "timbre": "^14.6.23",
+    "opencv": "^0.6.0"
+  }
+}
