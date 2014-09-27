@@ -1,7 +1,7 @@
 {
   "inst":     "garage-band",
   "detector": {
-    "type": "guitar",
+    "type": "drums",
     "args": [
       "greenGlove", "yellowGlove"
     ]

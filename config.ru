@@ -14,6 +14,8 @@ run lambda { |env|
     if not node['email'].nil? and node['email'] =~ /^\S+@\S+\.\S+$/
       client['heroku_app30073674']['emails'].insert({ :email => node['email'] })
     end
+  else
+    client['heroku_app30073674']['visits'].insert({ :time => Time.now.to_i })
   end
   [
     200,
