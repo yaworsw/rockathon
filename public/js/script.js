@@ -7,7 +7,7 @@ setInterval(function() {
     try {
     if (player) player.seekTo(31);
   } catch (ex) { /* */ }
-}, 60000)
+}, 60000);
 
 var ___looooopppp = function() {
   document.getElementById('that-part-up-there').innerHTML   = '';
@@ -29,7 +29,9 @@ var ___looooopppp = function() {
     ['My imaginary friend stole my air guitar'],
     ['1. Start Up</br>2. Cash In</br>3. Sell Out<br/>4. Bro Down'],
     ['Be the', 'Dude at the party with the air guitar'],
-    ['', 'Pay me for an air guitar!']
+    ['', 'Pay me for an air guitar!'],
+    ['', 'All the cool kids are doing it'],
+    ['', 'Sweaty gloves']
   ];
 
   var pick;
@@ -46,8 +48,6 @@ var ___looooopppp = function() {
       break;
     }
   }
-
-  console.log(pick)
 
   var choice = choices[pick];
   if (choice[0]) document.getElementById('that-part-up-there').innerHTML   = choice[0];
