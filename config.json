@@ -1,5 +1,5 @@
 {
-  "inst":     "guitar-garage-band",
+  "inst":     "garage-band",
   "detector": {
     "type": "drums",
     "args": [
