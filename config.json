@@ -3,7 +3,7 @@
   "detector": {
     "type": "drums",
     "args": [
-      "cyan", "hotPink"
+      "greenGlove", "yellowGlove"
     ]
   }
 }

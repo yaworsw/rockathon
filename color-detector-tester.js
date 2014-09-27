@@ -20,7 +20,8 @@ var rl = readline.createInterface({
 });
 
 var cd = require('./lib/rockathon/color-detector');
-cd = new cd(109, 115);
+cd = new cd(13, 28);
+cd.setMinArea(8000);
 
 if (bounds[process.argv[2]]) {
   cd.setBounds.apply(cd, bounds[process.argv[2]]);
@@ -52,6 +53,7 @@ var main = function() {
       var obj = objs[i];
       im.ellipse(obj[0], obj[1], 5, 5, [0, 255, 0], 2);
     };
+    im = im.flip(1);
     win.show(im);
     setTimeout(main, 20);
   });
