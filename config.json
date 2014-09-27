@@ -3,7 +3,7 @@
   "detector": {
     "type": "drums",
     "args": [
-      "green", "hotPink"
+      "cyan", "hotPink"
     ]
   }
 }

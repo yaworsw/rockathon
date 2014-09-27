@@ -4,8 +4,8 @@ client = Mongo::MongoClient.from_uri
 db     = client.db('emails')
 
 use Rack::Static,
-  :urls => ["/resources", "/js", "/css"],
-  :root => "public"
+  :urls => ['/resources', '/js', '/css'],
+  :root => 'public'
 
 run lambda { |env|
   req = Rack::Request.new(env)
