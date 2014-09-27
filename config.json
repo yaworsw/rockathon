@@ -1,9 +1,9 @@
 {
-  "inst":     "guitar",
+  "inst":     "guitar-garage-band",
   "detector": {
-    "type": "guitar",
+    "type": "drums",
     "args": [
-      "yellow", "hotPink"
+      "green", "hotPink"
     ]
   }
 }
