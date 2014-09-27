@@ -1,6 +1,10 @@
 {
   "dependencies": {
+    "lodash": "^2.4.1",
+    "opencv": "^0.6.0",
+    "speaker": "^0.2.1",
+    "stats-analysis": "0.0.3",
     "timbre": "^14.6.23",
-    "opencv": "^0.6.0"
+    "wav": "^0.1.2"
   }
 }

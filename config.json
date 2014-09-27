@@ -1,3 +1,9 @@
 {
-
+  "inst":     "guitar",
+  "detector": {
+    "type": "guitar",
+    "args": [
+      "yellow", "hotPink"
+    ]
+  }
 }
