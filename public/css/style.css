@@ -1,0 +1,52 @@
+html, body, #wrapper {
+  height: 100%;
+}
+
+h1 {
+  font-size: 3em;
+  margin: .2em .5em;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+.header-container {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+body {
+  text-transform: uppercase;
+  font-family: 'Advent Pro', sans-serif;
+  height: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font: Arial;
+}
+
+.form-container {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+}
+
+form {
+  width: 400px;
+  bottom: 200px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+}
+
+.logo-container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+.logo-container img {
+  padding: 200px 0;
+  width: 100%;
+}
